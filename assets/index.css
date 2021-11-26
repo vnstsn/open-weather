@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+  
+}
+
+.container-info {
+  text-align: center;
+  margin: 16px;
+}
+
+#city-input {
+  border-radius: 16px;
+  height: 28px;
+  width: 200px;
+}
+
+::placeholder {
+  padding: 8px;
+}
+
+#btn-search {
+  border-radius: 16px;
+  height: 34px;
+  width: 100px;
+}
+
+#city-bloc {
+  border-radius: 16px;
+  background-color: rgb(50, 56, 107);
+  color: rgb(223, 223, 217);
+  margin: 8px;
+  /* padding: 8px; */
+}
+
+#info-bloc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#info-card {
+  border-radius: 16px;
+  background-color: rgb(45, 61, 97);
+  color: rgb(223, 223, 217);
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
